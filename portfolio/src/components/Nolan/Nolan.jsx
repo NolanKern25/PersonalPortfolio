@@ -1,5 +1,5 @@
 import React from "react";
-
+import nolanImage from "../../assets/nolan/nolanImage.png";
 import styles from "./Nolan.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -7,19 +7,17 @@ export const Nolan = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Ada</h1>
+        <h1 className={styles.title}>Hello, I'm Nolan!</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+        I am currently pursuing a B.S in Computer Science at Ashland University. I enjoy Web Development 
+        various types Graphic Design. I hope to build a career in Software or Web Develoment
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:nkern@ashland.edu" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
       <img
-        src={getImageUrl("nolan/heroImage.png")}
-        alt="Hero image of me"
-        className={styles.heroImg}
+        src={nolanImage} alt="" className={styles.nolanImg}
       />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
