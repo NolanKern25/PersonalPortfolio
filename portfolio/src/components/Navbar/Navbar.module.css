@@ -17,7 +17,6 @@
   color: var(--color-text);
 }
 
-
 .menuBtn {
   display: none;
 }
@@ -37,6 +36,7 @@
   color: var(--color-text);
   text-decoration: none;
 }
+
 
 @media screen and (max-width: 830px) {
   .navbar {
