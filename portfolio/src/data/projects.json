@@ -10,14 +10,14 @@
       "title": "Personal Portfolio",
       "description": "My personal portfolio to showcase my skills and experience as a web developer.",
       "skills": ["React", "Node"],
-      "demo": "https://www.example.com",
+      "demo": "",
       "source": "https://github.com/NolanKern25/PersonalPortfolio"
     },
     {
       "title": "DONE Clothing",
       "description": "A clothing website made for the Web Programming I project.",
       "skills": ["JavaScript", "HTML", "CSS"],
-      "demo": "",
+      "demo": "https://github.com/Owen-Reynolds/done",
       "source": "https://github.com/Owen-Reynolds/done"
     }
   ]
