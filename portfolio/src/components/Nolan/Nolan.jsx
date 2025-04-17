@@ -15,6 +15,9 @@ export const Nolan = () => {
         <a href="mailto:nkern@ashland.edu" className={styles.contactBtn}>
           Contact Me
         </a>
+        <a href="" className={styles.contactBtn}>
+          Resume
+        </a>
       </div>
       <img
         src={nolanImage} alt="" className={styles.nolanImg}
