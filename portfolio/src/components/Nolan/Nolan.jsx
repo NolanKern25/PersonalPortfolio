@@ -1,6 +1,7 @@
 import React from "react";
 import nolanImage from "../../assets/nolan/nolanImage.png";
 import styles from "./Nolan.module.css";
+import resume from "../../assets/nolan/NolanKern-Resume.pdf";
 import { getImageUrl } from "../../utils";
 
 export const Nolan = () => {
@@ -15,7 +16,7 @@ export const Nolan = () => {
         <a href="mailto:nkern@ashland.edu" className={styles.contactBtn}>
           Contact Me
         </a>
-        <a href="" className={styles.contactBtn}>
+        <a href={resume} className={styles.contactBtn} target="_blank" rel="noopener noreferrer">
           Resume
         </a>
       </div>
