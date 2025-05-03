@@ -8,10 +8,10 @@ export const Nolan = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hello, I'm Nolan!</h1>
+        <h1 className={styles.title}> Hi, I'm Nolan</h1>
         <p className={styles.description}>
         I am currently pursuing a B.S. in Computer Science at Ashland University. I enjoy Web Development and
-        various types Graphic Design. I hope to build a career in Software and/or Web Develoment!
+        various types Graphic Design. I hope to build a career in Software and/or Web Development!
         </p>
         <a href="mailto:nkern@ashland.edu" className={styles.contactBtn}>
           Contact Me
