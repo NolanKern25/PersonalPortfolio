@@ -4,18 +4,13 @@ import cursorIcon from "../../assets/about/cursorIcon.png";
 import serverIcon from "../../assets/about/serverIcon.png";
 import uiIcon from "../../assets/about/uiIcon.png";
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
 
 export const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img
-          src={aboutImage}
-          alt=""
-          className={styles.aboutImage}
-        />
+        <img src={aboutImage} alt="About Nolan" className={styles.aboutImage} />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={cursorIcon} alt="Cursor icon" />

@@ -4,6 +4,11 @@
     padding: 0;
     font-family: "Outfit", Arial, Helvetica, sans-serif;
   }
+
+  body {
+    background: #030712;
+    color: #e5e7eb;
+  }
   
   html {
     scroll-behavior: smooth;

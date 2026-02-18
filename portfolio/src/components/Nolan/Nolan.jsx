@@ -1,30 +1,35 @@
 import React from "react";
 import nolanImage from "../../assets/nolan/nolanImage.png";
 import styles from "./Nolan.module.css";
-import resume from "../../assets/nolan/NolanKern-Resume.pdf";
-import { getImageUrl } from "../../utils";
+import resume from "../../assets/nolan/Resume - Nolan Kern 2026.pdf";
 
 export const Nolan = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="home">
       <div className={styles.content}>
-        <h1 className={styles.title}> Hi, I'm Nolan</h1>
+        <p className={styles.kicker}>Software Developer</p>
+        <h1 className={styles.title}>Hi, I&apos;m Nolan</h1>
         <p className={styles.description}>
-        I am currently pursuing a B.S. in Computer Science at Ashland University. I enjoy Web Development and
-        various types Graphic Design. I hope to build a career in Software and/or Web Development!
+          I am currently pursuing a B.S. in Computer Science at Ashland
+          University. I focus on web development and graphic design, and I enjoy
+          building clean, performant digital experiences.
         </p>
-        <a href="mailto:nkern@ashland.edu" className={styles.contactBtn}>
-          Contact Me
-        </a>
-        <a href={resume} className={styles.contactBtn} target="_blank" rel="noopener noreferrer">
-          Resume
-        </a>
+        <div className={styles.actions}>
+          <a href="mailto:nolankern25@outlook.com" className={styles.primaryBtn}>
+            Contact Me
+          </a>
+          <a
+            href={resume}
+            className={styles.secondaryBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </div>
       </div>
-      <img
-        src={nolanImage} alt="" className={styles.nolanImg}
-      />
+      <img src={nolanImage} alt="Nolan Kern" className={styles.nolanImg} />
       <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
     </section>
   );
 };

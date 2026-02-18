@@ -1,26 +1,39 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  background-color: rgba(15, 23, 42, 0.72);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 36px;
 }
 
 .title {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+  .projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    padding: 20px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }

@@ -2,10 +2,28 @@
     {
       "role": "Web Developer",
       "organisation": "Vitality Church",
-      "startDate": "Feb, 2025",
+      "startDate": "Jan, 2025",
       "endDate": "Apr, 2025",
-      "experiences": ["Worked on frontend and backend ", "Developed a fully functional website","Vitalitychurch.org"]
+      "image": "vitality",
+      "experiences": [
+        "Built a fully functional dynamic web application for Vitality Church.",
+        "Presented this web development project at Ashland University's 2025 URCA Symposium.",
+        "Planned, launched, and optimized Google Ads campaigns to improve visibility and increase traffic to sermons, events, and outreach programs."
+      ],
+      "workLink": "https://vitalitychurch.org"
+    },
+    {
+      "role": "Web Developer",
+      "organisation": "Dr Curt Ickes",
+      "startDate": "Sep, 2025",
+      "endDate": "Dec, 2025",
+      "image": "baseball",
+      "experiences": [
+        "Built a responsive web application for a best-selling children's sports author using React and Tailwind CSS.",
+        "Worked collaboratively within a team to manage project milestones and deliver a polished, user-focused product.",
+        "Strengthened teamwork, communication, and project management skills while shipping client-ready work."
+      ],
+      "workLink": "https://drcurtickes.com"
     }
-    
-    
+
   ]

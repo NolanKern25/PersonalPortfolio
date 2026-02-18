@@ -5,15 +5,19 @@ import { Experience } from "./components/Experience/Experience";
 import { Nolan } from "./components/Nolan/Nolan";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import { Skills } from "./components/Skills/Skills";
 
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
-      <Nolan />
-      <About />
-      <Experience />
-      <Projects />
+      <main className={styles.main}>
+        <Nolan />
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+      </main>
       <Contact />
     </div>
   );
