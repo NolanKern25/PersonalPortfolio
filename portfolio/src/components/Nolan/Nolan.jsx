@@ -2,6 +2,8 @@ import React from "react";
 import nolanImage from "../../assets/nolan/nolanImage.png";
 import styles from "./Nolan.module.css";
 import resume from "../../assets/nolan/Resume - Nolan Kern 2026.pdf";
+import linkedin from "../../assets/contact/linkedinIcon.png";
+import github from "../../assets/contact/githubIcon.png";
 
 export const Nolan = () => {
   return (
@@ -25,6 +27,24 @@ export const Nolan = () => {
             rel="noopener noreferrer"
           >
             Resume
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nolan-kern25/"
+            className={styles.socialLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <img src={linkedin} alt="LinkedIn" className={styles.socialIcon} />
+          </a>
+          <a
+            href="https://www.github.com/NolanKern25"
+            className={styles.socialLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <img src={github} alt="GitHub" className={styles.socialIcon} />
           </a>
         </div>
       </div>

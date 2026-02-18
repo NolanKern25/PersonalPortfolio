@@ -20,22 +20,25 @@
 .content {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 32px;
   margin-top: 20px;
 }
 
 .aboutImage {
   width: min(32%, 280px);
+  height: auto;
+  align-self: flex-start;
   border-radius: 12px;
-  border: 1px solid var(--color-border);
 }
 
 .aboutItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  justify-content: space-between;
+  gap: 12px;
+  height: 100%;
 }
 
 .aboutItem {
@@ -59,6 +62,8 @@
 .aboutItem img {
   width: 44px;
   height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .aboutItem h3 {
@@ -90,5 +95,8 @@
 
   .aboutItems {
     margin-top: 0;
+    height: auto;
+    justify-content: flex-start;
+    gap: 16px;
   }
 }

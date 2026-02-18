@@ -1,8 +1,9 @@
 import React from "react";
 import aboutImage from "../../assets/about/aboutImage.png";
-import cursorIcon from "../../assets/about/cursorIcon.png";
-import serverIcon from "../../assets/about/serverIcon.png";
-import uiIcon from "../../assets/about/uiIcon.png";
+import frontendIcon from "../../assets/about/front-end.png";
+import databaseIcon from "../../assets/about/database.png";
+import abstractArtIcon from "../../assets/about/abstract-art.png";
+import ashlandLogo from "../../assets/about/ashland-eagles-logo.png";
 import styles from "./About.module.css";
 
 export const About = () => {
@@ -13,7 +14,15 @@ export const About = () => {
         <img src={aboutImage} alt="About Nolan" className={styles.aboutImage} />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={cursorIcon} alt="Cursor icon" />
+            <img src={ashlandLogo} alt="Ashland University logo" />
+            <div className={styles.aboutItemText}>
+              <h3>Education</h3>
+              <p>B.S. in Computer Science at Ashland University</p>
+              <p>2023-2027</p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={frontendIcon} alt="Frontend icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -23,7 +32,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={serverIcon} alt="" />
+            <img src={databaseIcon} alt="Database icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -33,7 +42,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={uiIcon} alt="" />
+            <img src={abstractArtIcon} alt="Abstract art icon" />
             <div className={styles.aboutItemText}>
               <h3>Graphic Designer</h3>
               <p>

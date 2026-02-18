@@ -4,20 +4,23 @@
     "description": "Built a responsive single-page portfolio using React with clean component architecture, reusable UI components, and cross-device compatibility.",
     "skills": ["React", "JavaScript", "HTML", "CSS"],
     "demo": "https://nolankern.com",
-    "source": "https://github.com/NolanKern25/PersonalPortfolio"
+    "source": "https://github.com/NolanKern25/PersonalPortfolio",
+    "logo": "nolan"
   },
   {
     "title": "Neo Web Company",
     "description": "Co-founded a freelance digital marketing agency focused on modern web development, client acquisition, and end-to-end project delivery.",
     "skills": ["Web Development", "Client Acquisition", "Project Delivery"],
     "demo": "https://neowebco.com",
-    "source": ""
+    "source": "",
+    "logo": "neo"
   },
   {
     "title": "SermonQR",
     "description": "Built a full-stack web application for churches where users can create bulletin or pamphlet templates, then export them as QR codes, share via live links, or print with ease.",
     "skills": ["Tailwind", "React", "Next.js", "TypeScript", "Supabase"],
     "demo": "",
-    "source": ""
+    "source": "",
+    "logo": "dove"
   }
 ]

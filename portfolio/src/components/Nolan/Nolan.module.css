@@ -51,6 +51,8 @@
 .actions {
   display: flex;
   gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .primaryBtn,
@@ -78,6 +80,29 @@
 .secondaryBtn:hover {
   transform: translateY(-1px);
   border-color: var(--color-primary);
+}
+
+.socialLink {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: rgba(15, 23, 42, 0.95);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.socialLink:hover {
+  transform: translateY(-1px);
+  border-color: var(--color-primary);
+}
+
+.socialIcon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
 }
 
 .nolanImg {
@@ -126,6 +151,6 @@
 
   .actions {
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
